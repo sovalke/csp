@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+    <head>
+        <title>Thank you!</title>
+    </head>
+    <body>
+
+        <h1>Thank you! You have been signed up to the event!</h1>
+        <h2>Your signup details:</h2>
+        <p th:utext="${details.name}">One's name</p>
+        <p th:utext="${details.address}">One's address</p>
+        
+        <p><a href="/form">Back to front page</a></p>
+    </body>
+</html>
